@@ -26,4 +26,9 @@ padding: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+.lista-menu{
+    position: absolute ;
+    top: 100%;
 }
