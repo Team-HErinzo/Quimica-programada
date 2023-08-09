@@ -1,4 +1,5 @@
 @import url("./estilo/header.css");
+@import url("./estilo/banner.css");
 
 :root{
     --plano-de-fundo: #ffffff;

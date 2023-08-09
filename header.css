@@ -11,14 +11,9 @@
 
 .container--imagem{
 
-padding: 1em;
-
+    padding: 1em;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-}
 
 
 .cabecalho{
@@ -27,6 +22,11 @@ padding: 1em;
     justify-content: space-between;
     align-items: center;
     position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
 }
 
 .lista-menu{
@@ -63,10 +63,4 @@ padding: 1em;
     background-clip: text;
 }
 
-.seçao-banner__titulo{
 
-}
-
-.seçao-banner__frase{
-    
-}
