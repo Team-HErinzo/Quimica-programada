@@ -62,5 +62,6 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-
-
+.banner{
+    background-image: url(Img/signo-de-fogo.png);
+}
