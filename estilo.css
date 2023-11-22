@@ -1,13 +1,71 @@
-@import url("./estilo/header.css");
-@import url("./estilo/banner.css");
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/video.css");
+@import url("styles/tema.css");
+@import url("styles/rodape.css");
 
-:root{
-    --plano-de-fundo: #ffffff;
-    --cor-cabecalho:#ffffff;
-    --titulo-cabecalho: #eb9b00;
-    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%)
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --vermelho-degrade: linear-gradient(97.54deg, #B80B00 35.49%, #b89c00 165.37%);
+    --fonte-principal: "Lexend";
+    --azul: #002F52;
 }
 
-body{
-    background-color: var(--planno-de-fundo);
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dropbtn {
+  background-color: white;
+  color: rgb(1, 16, 153);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  display: flex;
+  align-items:baseline;
+  z-index: 2;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: whitesmoke;}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+.dropdown:hover .dropbtn
+{
+  background-color: white;
+}
+
+.glyphicon.glyphicon-th-list
+{
+  font-size: 50px;
+}
+.descrição__titulo-livro
+{
+color: darkblue;
+font-size: 25px;
 }

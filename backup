@@ -1,0 +1,5 @@
+.bebe{ background: var(--vermelho-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
